@@ -38,7 +38,7 @@ def _predict_triggers(text:str):
 
 app = Flask(__name__)
 
-@app.route('/', methods=["GET", "POST"])
+@app.route('/trigger-detection', methods=["GET", "POST"])
 def index():
     trigger_dict = {'work_id': 0, 'labels': []}
     content = ''
