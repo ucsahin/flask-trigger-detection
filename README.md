@@ -5,6 +5,7 @@ I coded the Hierarchical Recurrence concept over HuggingFace's transformer-based
 
 Don't forget to supply your own Huggingface API access token when running the code. You can do it by adding .env file to the root directory of the project and putting your token as follows:
 ```
+# inside .env file 
 hf_key = "YOUR_ACCESS_TOKEN"
 ```
 
